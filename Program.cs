@@ -43,6 +43,53 @@ namespace Assignment5
             //}
             #endregion
 
+            //Part 2 - Arrays
+
+            #region Q1:Array Statistics
+            //Console.Write("Enter array size: ");
+            //int size = int.Parse(Console.ReadLine());
+            //int[] arr = new int[size];
+
+            //int sum = 0;
+            //float avg ;
+            //int max = 0;
+            //int min = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write
+            //        ($"Enter element number {i + 1}: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //    sum += arr[i];
+            //    if (i == 0) { 
+            //        min = arr[i];
+            //        max = arr[i];
+            //    }
+
+            //    if (arr[i] < min)
+            //        min = arr[i];
+            //    if (arr[i] > max)
+            //        max = arr[i];
+
+            //}
+
+            //avg = (float)sum / size;
+            //Console.WriteLine($"Sum= {sum}");
+            //Console.WriteLine($"Average= {avg} ");
+            //Console.WriteLine($"Minimum= {min} ");
+            //Console.WriteLine($"Maximum= {max} ");
+
+            //Console.Write("Reverse Array=");
+            //for (int i = size-1; i>=0; i--)
+            //{
+            //    if(i!=0)
+            //        Console.Write($"{arr[i]}, ");
+            //    else
+            //        Console.Write($"{arr[i]} ");
+
+            //}
+            #endregion
 
 
 
