@@ -127,6 +127,54 @@ namespace Assignment5
 
             #endregion
 
+            //Part 3 - Methods
+
+            #region Method: Q1
+            //double Add(double a, double b) => a + b;
+            //double Subtract(double a, double b) => a - b;
+            //double Multiply(double a, double b) => a * b;
+            //double Divide(double a, double b)
+            //{
+            //    if (b == 0)
+            //    {
+            //        Console.WriteLine("Error: Division by zero is not allowed.");
+            //        return 0;
+            //    }
+            //    return a / b;
+            //}
+
+            //Console.Write("Enter first number: ");
+            //double num1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter second number: ");
+            //double num2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter operation (+, -, *, /): ");
+            //char op = char.Parse(Console.ReadLine());
+
+            //double result = 0;
+
+            //switch (op)
+            //{
+            //    case '+': 
+            //        result = Add(num1, num2); 
+            //        break;
+            //    case '-': 
+            //        result = Subtract(num1, num2); 
+            //        break;
+            //    case '*': 
+            //        result = Multiply(num1, num2); 
+            //        break;
+            //    case '/': 
+            //        result = Divide(num1, num2); 
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid operation");
+            //        return;
+            //}
+            //Console.WriteLine($"Result = {result}");
+            #endregion
+
             Console.ReadKey();
 
         }
