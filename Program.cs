@@ -175,6 +175,22 @@ namespace Assignment5
             //Console.WriteLine($"Result = {result}");
             #endregion
 
+            #region Methods: Q2
+            //void CalculateCircle(double r, out double a, out double c)
+            //{
+            //    a = Math.PI * r * r;
+            //    c = 2 * Math.PI * r;
+            //}
+
+            //Console.Write("Enter circle radius: ");
+            //double radius = double.Parse(Console.ReadLine());
+
+            //CalculateCircle(radius, out double area, out double circumference);
+
+            //Console.WriteLine($"Area = {area}");
+            //Console.WriteLine($"Circumference = {circumference}");
+            #endregion
+
             Console.ReadKey();
 
         }
