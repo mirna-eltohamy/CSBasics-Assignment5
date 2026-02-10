@@ -8,6 +8,7 @@ namespace Assignment5
     {
         Saturday=1, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday
     }
+    enum Grade { A, B, C, D, F }
     class Program
     {
         static void Main(string[] args)
@@ -189,6 +190,66 @@ namespace Assignment5
 
             //Console.WriteLine($"Area = {area}");
             //Console.WriteLine($"Circumference = {circumference}");
+            #endregion
+
+            //mini Student Grade Manager 
+            #region Mini Student Grade Manager 
+
+            //const int numStudents = 5;
+            //int[] scores = new int[numStudents];
+
+            //Grade GetGrade(int score)
+            //{
+            //    if (score >= 90) return Grade.A;
+            //    else if (score >= 80) return Grade.B;
+            //    else if (score >= 70) return Grade.C;
+            //    else if (score >= 60) return Grade.D;
+            //    else return Grade.F;
+            //}
+
+            //double CalculateAverage(int[] arr)
+            //{
+            //    int sum = 0;
+            //    foreach (int score in arr)
+            //        sum += score;
+            //    return (double)sum / arr.Length;
+            //}
+
+            //void GetMinMax(int[] arr, out int min, out int max)
+            //{
+            //    min = arr[0];
+            //    max = arr[0];
+
+            //    foreach (int score in arr)
+            //    {
+            //        if (score < min) min = score;
+            //        if (score > max) max = score;
+            //    }
+            //}
+
+            
+            //for (int i = 0; i < numStudents; i++)
+            //{
+            //    Console.Write($"Enter score for student {i + 1}: ");
+            //    scores[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("\n----Report----");
+            
+            //for (int i = 0; i < numStudents; i++)
+            //{
+            //    Grade grade = GetGrade(scores[i]);
+            //    Console.WriteLine($"Student {i + 1}: {scores[i]} -> Grade: {grade}");
+            //}
+
+            //double average = CalculateAverage(scores);
+
+            //GetMinMax(scores, out int minScore, out int maxScore);
+
+            //Console.WriteLine($"\nClass average = {(double)average}");
+            //Console.WriteLine($"Class minimum score = {minScore}");
+            //Console.WriteLine($"Class maximum score = {maxScore}");
+            
             #endregion
 
             Console.ReadKey();
