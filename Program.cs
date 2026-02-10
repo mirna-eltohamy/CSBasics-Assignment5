@@ -91,7 +91,41 @@ namespace Assignment5
             //}
             #endregion
 
+            #region Q2 : Student Grades Matrix
+            //int[,] grades = new int[3,4];
+            //int s1 = 0, s2 = 0, s3 = 0;
 
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter student {i+1} grades:");
+
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        Console.Write($"Enter subject {j+1} grade:");
+            //        grades[i,j] =int.Parse(Console.ReadLine());
+            //        switch (i)
+            //        {
+            //            case 0:
+            //                s1 += grades[i, j];
+            //                break;
+            //            case 1:
+            //                s2 += grades[i, j];
+            //                break;
+            //            case 2:
+            //                s3 += grades[i, j];
+            //                break;
+            //        }
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+            //Console.WriteLine($"Average of student 1 grades= {(float)s1 / 4}");
+            //Console.WriteLine($"Average of student 2 grades= {(float)s2 / 4}");
+            //Console.WriteLine($"Average of student 3 grades= {(float)s3 / 4}");
+            //Console.WriteLine($"Average of class grades= {(float)(s1 + s2 + s3) / 12}");
+
+            #endregion
 
             Console.ReadKey();
 
